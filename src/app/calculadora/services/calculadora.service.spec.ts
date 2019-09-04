@@ -17,7 +17,7 @@ describe('CalculadoraService', () => {
   });
 
   it('deve garantir que 1 - 4 = -3', () => {
-    const subtracao = service.calcular(1, 4, CalcularService.SUBTRACAO);
+    const subtracao = service.calcular(1, 4, CalculadoraService.SUBTRACAO);
     expect(subtracao).toEqual(-3);
   });
 
